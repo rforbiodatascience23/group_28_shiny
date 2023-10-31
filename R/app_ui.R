@@ -9,6 +9,7 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
+    mod_plot_module_ui("plot_module_1"),
     fluidPage(
       h1("centraldogma28")
     )
@@ -39,3 +40,9 @@ golem_add_external_resources <- function() {
     # for example, you can add shinyalert::useShinyalert()
   )
 }
+tabsetPanel(
+  tabPanel(title = "convert_panel",
+           "convert_module"),
+  tabPanel(title = "plot_panel",
+           "plot_module")
+)
