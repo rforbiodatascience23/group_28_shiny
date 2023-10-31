@@ -7,4 +7,5 @@
 app_server <- function(input, output, session) {
   # Your application server logic
   mod_plot_module_server("plot_module")
+  mod_plot_module_server("plot_module_1")
 }

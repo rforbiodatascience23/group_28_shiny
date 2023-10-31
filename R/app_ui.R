@@ -9,7 +9,11 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
+<<<<<<< HEAD
     mod_plot_module_ui("plot_module"),
+=======
+    mod_plot_module_ui("plot_module_1"),
+>>>>>>> 7e212b4eac3803eab1d7905ef7723fe7baac8600
     fluidPage(
       h1("centraldogma28")
     )
