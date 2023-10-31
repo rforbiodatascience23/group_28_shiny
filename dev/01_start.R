@@ -36,7 +36,7 @@ golem::fill_desc(
              role = "aut",
              email = "your@email.com"),
       person(given = "Karolina",
-             family = "K",
+             family = "KK",
              role = "aut",
              email = "your@email.com"),
       person(given = "Attila",
