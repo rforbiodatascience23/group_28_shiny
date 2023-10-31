@@ -22,10 +22,28 @@ golem::fill_desc(
   pkg_name = "centraldogma28", # The Name of the package containing the App
   pkg_title = "PKG_TITLE", # The Title of the package containing the App
   pkg_description = "PKG_DESC.", # The Description of the package containing the App
-  author_first_name = "AUTHOR_FIRST", # Your First Name
-  author_last_name = "AUTHOR_LAST", # Your Last Name
-  author_email = "AUTHOR@MAIL.COM", # Your Email
-  repo_url = NULL, # The URL of the GitHub Repo (optional),
+  Authors@R:
+    c(person(given = "Marty",
+             family = "B",
+             role = c("aut", "cre"), # There must be a "cre", but there can only be one
+             email = "your@email.com"),
+      person(given = "Jiawen",
+             family = "Wu",
+             role = "aut",
+             email = "your@email.com"),
+      person(given = "Taner",
+             family = "name",
+             role = "aut",
+             email = "your@email.com"),
+      person(given = "Karolina",
+             family = "K",
+             role = "aut",
+             email = "your@email.com"),
+      person(given = "Attila",
+             family = "Beleon",
+             role = "aut",
+             email = "beleonattila@gmail.com")),
+  repo_url = 'https://github.com/rforbiodatascience23/group_28_shiny.git',
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
 
@@ -33,7 +51,7 @@ golem::fill_desc(
 golem::set_golem_options()
 
 ## Install the required dev dependencies ----
-golem::install_dev_deps()
+# golem::install_dev_deps()
 
 ## Create Common Files ----
 ## See ?usethis for more information
