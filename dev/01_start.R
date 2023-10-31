@@ -20,30 +20,12 @@
 ##
 golem::fill_desc(
   pkg_name = "centraldogma28", # The Name of the package containing the App
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App
-  Authors@R:
-    c(person(given = "Martynas",
-             family = "Baltusis",
-             role = c("aut", "cre"), # There must be a "cre", but there can only be one
-             email = "s222858@student.dtu.dk"),
-      person(given = "Jiawen",
-             family = "Wu",
-             role = "aut",
-             email = "your@email.com"),
-      person(given = "Taner",
-             family = "name",
-             role = "aut",
-             email = "your@email.com"),
-      person(given = "Karolina",
-             family = "KK",
-             role = "aut",
-             email = "your@email.com"),
-      person(given = "Attila",
-             family = "Beleon",
-             role = "aut",
-             email = "beleonattila@gmail.com")),
-  repo_url = 'https://github.com/rforbiodatascience23/group_28_shiny.git',
+  pkg_title = "centraldogma package for group28", # The Title of the package containing the App
+  pkg_description = "DNA -> RNA -> Codons -> Amino acids -> Counts", # The Description of the package containing the App
+  author_first_name = "Martynas, Attila, Karolina, Taner, Jiawen", # Your First Name
+  author_last_name = "", # Your Last Name
+  author_email = "s222858@student.dtu.dk", # Your Email
+  repo_url = "https://github.com/rforbiodatascience23/group_28_shiny.git", # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
 )
 
