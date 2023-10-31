@@ -4,4 +4,4 @@
 
 pkgload::load_all(export_all = FALSE,helpers = FALSE,attach_testthat = FALSE)
 options( "golem.app.prod" = TRUE)
-centraldogma28::run_app() # add parameters here (if any)
+centraldogma28app::run_app() # add parameters here (if any)
