@@ -9,15 +9,13 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
-    mod_plot_module_ui("plot_module"),
-    mod_plot_module_ui("plot_module_1"),
     fluidPage(
       h1("centraldogma28"),
       tabsetPanel(
         tabPanel(title = "convert_panel",
-                 "convert_module"),
+                 mod_convert_module_ui("convert_module_1")),
         tabPanel(title = "plot_panel",
-                 "plot_module")
+                 mod_plot_module_ui("plot_module_1"))
       )
     )
   )
