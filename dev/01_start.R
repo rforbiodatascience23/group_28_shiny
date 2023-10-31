@@ -23,7 +23,7 @@ golem::fill_desc(
   pkg_title = "centraldogma package for group28", # The Title of the package containing the App
   pkg_description = "DNA -> RNA -> Codons -> Amino acids -> Counts", # The Description of the package containing the App
   author_first_name = "Martynas, Attila, Karolina, Taner, Jiawen", # Your First Name
-  author_last_name = "", # Your Last Name
+  author_last_name = "none", # Your Last Name
   author_email = "s222858@student.dtu.dk", # Your Email
   repo_url = "https://github.com/rforbiodatascience23/group_28_shiny.git", # The URL of the GitHub Repo (optional),
   pkg_version = "0.0.0.9000" # The Version of the package containing the App
