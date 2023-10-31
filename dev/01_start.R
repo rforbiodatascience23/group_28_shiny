@@ -23,10 +23,10 @@ golem::fill_desc(
   pkg_title = "PKG_TITLE", # The Title of the package containing the App
   pkg_description = "PKG_DESC.", # The Description of the package containing the App
   Authors@R:
-    c(person(given = "Marty",
-             family = "B",
+    c(person(given = "Martynas",
+             family = "Baltusis",
              role = c("aut", "cre"), # There must be a "cre", but there can only be one
-             email = "your@email.com"),
+             email = "s222858@student.dtu.dk"),
       person(given = "Jiawen",
              family = "Wu",
              role = "aut",
